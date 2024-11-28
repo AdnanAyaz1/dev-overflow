@@ -19,12 +19,20 @@ body {
     @apply bg-light-900 dark:bg-dark-200;
   }
 
+  .background-light900_dark500 {
+    @apply bg-light-900 dark:bg-dark-500;
+  }
+
   .background-light900_dark300 {
     @apply bg-light-900 dark:bg-dark-300;
   }
 
   .background-light800_darkgradient {
     @apply bg-light-800 dark:dark-gradient;
+  }
+
+  .background-light800_dark500 {
+    @apply bg-light-800 dark:bg-dark-500;
   }
 
   .background-light800_dark400 {
@@ -213,6 +221,10 @@ body {
 
   .shadow-light100_darknone {
     @apply shadow-light-100 dark:shadow-none;
+  }
+
+  .auth-input {
+    @apply bg-[#FFFFFF] border-[1px] border-[#DCE3F1] dark:bg-[#212734] dark:border-[#212734];
   }
 
   .primary-gradient {
