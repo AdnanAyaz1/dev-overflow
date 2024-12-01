@@ -309,16 +309,16 @@ body {
 
 .custom-scrollbar::-webkit-scrollbar {
   width: 3px;
-  height: 3px;
+  height: 3px !important;
   border-radius: 2px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #888;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #555;
   border-radius: 50px;
 }
 
